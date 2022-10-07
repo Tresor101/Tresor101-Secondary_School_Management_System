@@ -1,6 +1,6 @@
 /* ******** FONT ******** */
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 /* ******** VARIABLES ******** */
 :root {
   --body-color: #ededed;
@@ -19,6 +19,7 @@
 }
 
 body {
+
   background-color: var(--body-color);
   display: flex;
   justify-content: center;
@@ -198,8 +199,8 @@ body {
 @media screen and (max-width : 1170px) {
     .header-section {
         grid-template-columns:  1fr 1fr 2fr;
-    }
 
+    }
 }
 
 @media screen and (max-width : 992px) {
@@ -218,6 +219,7 @@ body {
 
     .image-box {
         padding-bottom: 30px;
+        
     }
 
     .salad-item {
